@@ -9,38 +9,44 @@
   <title>Frontend Mentor | NFT preview card component</title>
 
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Specimen">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="wrapper">
     <div class="nft-card">
-      <img src="images/image-equilibrium.jpg">
-
-      <div class="contents">
-        <h3 class="title">Equilibrium #3429</h3>
-
-        <p class="copy">Our Equilibrium collection promotes balance and calm.</p>
-
-        <div class="metadata">
-          <div class="type">0.041 ETH</div>
-          <div class="time">3 days left</div>
+      <div class="container">
+        <img class="image" src="images/image-equilibrium.jpg">
+        <div class="middle">
+          <img class="icon-view" src="images/icon-view.svg">
         </div>
-
+      </div>
+      <div class="contents">
+        <a class="nft-card-title">Equilibrium #3429</a>
+        <p class="body-copy">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="metadata">
+          <div class="nft-type">
+            <img src="images/icon-ethereum.svg">
+            <p>0.041 ETH</p>
+          </div>
+          <div class="time">
+            <img src="images/icon-clock.svg">
+            <p>3 days left</p>
+          </div>
+        </div>
         <div class="author">
           <div class="avatar">
-            <img class="avatar-img">
+            <img class="avatar-img" src="images/image-avatar.png">
           </div>
           <p>Creation of <a href="#">Jules Wyvern</a></p>
         </div>
-
-
       </div>
     </div>
 </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.instagram.com/darrenohehir/">Darren O'Hehir</a>.
   </div>
 </body>
 </html>

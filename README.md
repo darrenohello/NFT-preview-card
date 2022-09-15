@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot.jpg)
+![](screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/darrenohello/NFT-preview-card)
-- Live Site URL: [Add live site URL here](https://darrenohello.github.io/NFT-preview-card/)
+- Solution URL: [Github repository](https://github.com/darrenohello/NFT-preview-card)
+- Live Site URL: [Github demo](https://darrenohello.github.io/NFT-preview-card/)
 
 ## My process
 

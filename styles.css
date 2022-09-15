@@ -26,10 +26,7 @@ body {
     height: 90vh;
     padding: 1rem;
     z-index: 1;
-
 }
-
-
 
 .nft-card {
     width: 19rem;
@@ -46,14 +43,13 @@ body {
     cursor: pointer;
 }
 
-.container {
+.image-container {
     position: relative;
     border-radius: 0.5rem;
     overflow: hidden;
     width: 100%;
     height: auto;
 }
-
 
 .image {
     opacity: 1;
@@ -85,11 +81,11 @@ body {
     -ms-transform: translate(-50%, -50%);
 }
 
-.container:hover .image {
+.image-container:hover .image {
     opacity: 0.8;
   }
   
-.container:hover .middle {
+.image-container:hover .middle {
     opacity: 1;
   }
 
@@ -126,7 +122,6 @@ body {
 .metadata img {
     margin-right: 0.5rem;
 }
-
 
 .time {
     display: flex;
